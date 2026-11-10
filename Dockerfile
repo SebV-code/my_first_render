@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["bash", "-lc", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-10000}"]
+CMD ["bash", "-lc", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-10000}"]
