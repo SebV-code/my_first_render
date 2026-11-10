@@ -6,7 +6,7 @@ from fastapi import FastAPI, File, UploadFile
 from pydantic import BaseModel, Field
 
 DESCRIPTION = """
-Welcome to the Jedha Render demo API. This app shows a small FastAPI service you can deploy with Docker.
+Welcome to the Seb Render demo API. This app shows a small FastAPI service you can deploy with Docker.
 
 ## Introduction
 * `/` returns a welcome message
